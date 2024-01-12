@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/txtTitle"
+        android:textSize="30sp"
+        />
+
+    <EditText
+        android:id="@+id/hint1"
+        android:layout_width="291dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="64dp"
+        android:hint="@string/hint1" />
+
+    <EditText
+        android:id="@+id/hint2"
+        android:layout_width="291dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="59dp"
+        android:layout_marginTop="134dp"
+        android:hint="@string/hint2" />
+
+    <EditText
+        android:id="@+id/hint3"
+        android:layout_width="291dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="206dp"
+        android:hint="@string/hint3" />
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/hint3"
+        android:text="@string/btnPaymant"
+        android:textSize="30sp"
+        android:layout_marginTop="30dp"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="346dp"
+        android:layout_below="@id/btn"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/opening"
+        />
+
+</RelativeLayout>

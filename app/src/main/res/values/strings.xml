@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ch11</string>
+    <string name="hint1">Number of Years</string>
+    <string name="hint2">Car Loan Amount</string>
+    <string name="hint3">Interest Rate</string>
+    <string name="btnPaymant">Car Payment</string>
+    <string name="imgDescription">Number of Y</string>
+    <string name="txtPayment">Monthly Payment</string>
+    <string name="txtTitle">Electric Car Financing</string>
+</resources>
